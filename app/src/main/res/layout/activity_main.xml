@@ -50,7 +50,7 @@
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/name"
+            android:text="meme"
             android:fontFamily="sans-serif-black"
             android:textColor="#4821F3"
             android:layout_weight="1"
@@ -70,7 +70,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
-            android:text="@string/manar"
+            android:text="@string/test"
             android:textColor="@color/nameColor"
             android:textSize="20sp"
             android:textStyle="bold" />
