@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    tools:context=".MainActivity">
+<TextView
+    android:id="@+id/memeTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/meme_app"
+    android:textColor="#2196F3"
+    style="@style/TextAppearance.Material3.BodyLarge"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    />
+    <ImageView
+        android:id="@+id/meme1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/imageHeight"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/meme1" />
+    <ImageView
+        android:id="@+id/meme2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/imageHeight"
+        android:scaleType="fitXY"
+        android:src="@drawable/meme2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="#4821F3"
+            android:layout_weight="1"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/manar"
+            android:textColor="#21F324"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
